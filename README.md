@@ -38,6 +38,22 @@ The WebGL build is available inside:
 
 Build/WebGL/
 
+## Instructions to Run WebGL Build
+
+1. Navigate to the `Build/WebGL` folder.
+
+2. Open the folder using a local development server.
+
+3. Recommended method:
+   - Open the folder in Visual Studio Code
+   - Install the "Live Server" extension
+   - Right-click `index.html`
+   - Select `Open with Live Server`
+
+4. The game will launch automatically in the browser.
+
+> Note: Unity WebGL builds may not run correctly when opening `index.html` directly because modern browsers restrict local WebGL file access.
+
 ## Folder Structure
 
 Assets/
